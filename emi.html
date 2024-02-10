@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GREEN-API Test Page</title>
+</head>
+<body>
+    <h1>GREEN-API Test Page</h1>
+    
+    <form id="apiForm">
+        <label for="idInstance">Instance ID:</label>
+        <input type="text" id="idInstance" name="idInstance" required><br><br>
+        
+        <label for="apiTokenInstance">API Token:</label>
+        <input type="text" id="apiTokenInstance" name="apiTokenInstance" required><br><br>
+        
+        <button type="button" onclick="getSettings()">Get Settings</button>
+        <button type="button" onclick="sendMessage()">Send Message</button>
+    </form>
+    
+    <h2>Response:</h2>
+    <div id="response" style="border: 1px solid #ccc; padding: 10px; margin-bottom: 20px;"></div>
+    
+    <script>
+        function getSettings() {
+            // Code to call GREEN-API's getSettings method
+            // Use fetch or XMLHttpRequest to make a request to the API
+            // Update the #response div with the received data
+        }
+        
+        function sendMessage() {
+            // Code to call GREEN-API's sendMessage method
+            // Use fetch or XMLHttpRequest to make a request to the API
+            // Update the #response div with the received data
+        }
+    </script>
+</body>
+</html>
